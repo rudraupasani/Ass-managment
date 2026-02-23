@@ -240,7 +240,7 @@ export default function Home() {
                 {/* Grid Content */}
                 <div className="space-y-16">
                     {/* Latest Uploaded Section */}
-                    {!loading && files.length > 0 && searchQuery === '' && (
+                    {!loading && files.length > 0 && searchQuery === '' && selectedCategory === 'all' && (
                         <section className="space-y-6">
                             <div className="flex items-center gap-3">
                                 <div className="p-2 bg-blue-500/10 rounded-lg">
